@@ -21,8 +21,8 @@ Use the following to run the interface:
 ./interface 
 ```
 
-An example code in [src/main.cpp](src/main.cpp) can be seen.
+Press the escape key to exit the interface.
 
-The frequencies, the number of the frequencies as well as their location on the screen can be changed as shown in the example code.
+The frequencies, the number of the frequencies as well as their location on the screen can be changed as shown in the example code [src/main.cpp](src/main.cpp)
 
 Avaiable functions can be seen in [include/visualstimuli.h](include/visualstimuli.h)
