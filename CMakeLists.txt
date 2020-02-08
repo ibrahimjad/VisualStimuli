@@ -16,4 +16,4 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 add_executable (interface src/main.cpp)
 
 find_package (Threads)
-target_link_libraries(interface stimuli glfw3 GL X11 dl ${CMAKE_THREAD_LIBS_INIT})
+target_link_libraries(interface stimuli glfw GL X11 dl ${CMAKE_THREAD_LIBS_INIT})
